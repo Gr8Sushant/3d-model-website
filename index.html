@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <title>GoPro Max</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <img src="./img/gopro-white.png" alt="logo" class="logo">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Specifications</a></li>
+            <li><a href="#contact" data-after="Projects">Adventures</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <model-viewer src="assets/gopro/scene.gltf" alt="model robot" auto-rotate camera-controls ar ios-src="assets/gopro/scene.gltf"></model-viewer>
+        <h1>GoPro Hero MAX<span></span></h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Feature Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>Specifications</span></h1>
+        <p>This is a GoPro fansite. The GoPro Max 360 Sports & Action Camera has CMOS Sensor sensor. As It supports memory card types of microSD, microSDHC, microSDXC.
+          Overall, this camera weighs and has 2 Inch display to click, and preview images. 
+        </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/go-icon.png" /></div>
+          <h2>Three Cameras in One</h2>
+          <p>Shoot single-lens HERO-style video with unbreakable stabilization or capture immersive 360 footage in 6K4. Vlog to the max with shotgun-mic performance and a front-facing screen.</p>
+        </div>
+        <div class="service-item">
+           <div class="icon"><img src="./img/go-icon.png" /></div>
+          <h2>Max HyperSmooth</h2>
+          <p>Say hello to the new king of stabilization. Max HyperSmooth delivers the smoothest video ever from a GoPro—plus game-changing horizon leveling, when you want it.</p>
+        </div>
+        <div class="service-item">
+           <div class="icon"><img src="./img/go-icon.png" /></div>
+          <h2>Digital Lenses</h2>
+          <p>Tap through four lenses to nail any shot: Narrow, distortion-free Linear, Wide and Max SuperView—our widest view yet.</p>
+        </div>
+        <div class="service-item">
+           <div class="icon"><img src="./img/go-icon.png" /></div>
+          <h2>360 Audio</h2>
+          <p>Six—yes, six—built-in microphones combine to capture immersive 360 audio, directional audio for vlogging, wind-noise reduction and the best stereo sound ever from a GoPro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title"><span> GoPro</span> Adventures</h1>
+      </div>
+      <br>
+      
+      <iframe width="80%" height="500px" src="https://www.youtube.com/embed/Baur2Ypgd60?controls=1;&autoplay=1;&mute=1&loop=1&playlist=Baur2Ypgd60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br>
+
+      <iframe width="80%" height="500px" src="https://www.youtube.com/embed/jMUEWM45i-0?controls=1;&autoplay=1;&mute=1&loop=1&playlist=jMUEWM45i-0" title="YouTube video player" frameborder="0" allow="accelerometer; loop; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <br><br>
+    <div class="footer container">
+        <p id="social-links">
+          <a href="https://www.youtube.com/user/GoProCamera" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/GoPro" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/gopro" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/gopro/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://gopro.com/en/us/" target="_blank"><i class="fas fa-globe-asia"></i></a>
+        </p>
+      <br>
+      <p>Purchase one : <a style="color: white;" href="https://gopro.com/en/us/shop/cameras/max/CHDHZ-202-master.html" target="_blank"><i class="fas fa-shopping-cart"></i></a></p>
+      <p>GoPro 3D Model Artist: Alexandre Avranches</p>
+      <p>Sushant Pokharel | 2021</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
