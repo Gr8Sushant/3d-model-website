@@ -1,2 +1,2 @@
 # 3d-model-website
-> just a Fansite
+> Simple webpage with 3d model
