@@ -1,2 +1,3 @@
-# 3d-model-website
-> Simple webpage with 3d model
+### A Fan Website for Gopro Max
+
+> GoPro 3D Model Artist: Alexandre Avranches
